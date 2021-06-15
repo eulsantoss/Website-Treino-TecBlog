@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+/*Estilização da barra de logo + navegação*/
+
+#nav {
+    text-align: center;
+    background-color:#f7b600;
+}
+
+#logo {
+    padding: 30px 0;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#tec {
+    color: rgb(61, 61, 61);
+}
+
+#blog {
+    color: white;
+}
+
+#navbar {
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+#navbar a {
+    padding: 13px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover {
+    background-color: white;
+    color: #f7b600;
+}
+
+/*Fim da estilização da logo + navegação*/
+
+#content {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: white;
+}
+
+#areapostagens {
+    width: 660px;
+    float: left;
+}
+
+#arealateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    padding: 15px;
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post h2 {
+    margin: 0;
+    color: #f7b600;
+}
+
+.data-post {
+    font-size: 0.8em;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.post a, .conteudolateral a {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.postlateral h3 {
+    color: rgb(94, 93, 93);
+    background-color: rgb(179, 178, 178);
+    padding: 4px;
+    margin-top: 25px;
+}
+
+.conteudolateral hr {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.conteudolateral a:hover {
+    text-decoration: underline;
+}
